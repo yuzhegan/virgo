@@ -11,7 +11,7 @@ Features:
 
 Hotkeys:
 
-        ALT + 1..4             -> changes to desktop 1..4
+        ALT + Ctrl+ 1..4             -> changes to desktop 1..4
         CTRL + 1..4            -> moves active window to desktop 1..4
         ALT + CTRL + SHIFT + Q -> exits the program
         ALT + CTRL + SHIFT + S -> starts/stops handling of other hotkeys
@@ -23,6 +23,18 @@ the nerds can build it with
         make
 
 If you do not have gcc/make installed you can change that doing following
+
+AutoHotKey to change the hotkeys:
+```
+Alt+q -> Alt + Ctrl +1
+Alt+w -> Alt + Ctrl +2
+Alt+e -> Alt + Ctrl +3
+Alt+a -> Alt + Ctrl +4
+Alt+s -> Alt + Ctrl +5
+Alt+d -> Alt + Ctrl +6
+```
+
+
 
 1. go to http://msys2.github.io/ and install it according to the instructions there
 2. open msys2 shell and install mingw-w64-i686-gcc and mingw-w64-i686-make using pacman
